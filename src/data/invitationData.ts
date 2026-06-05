@@ -54,7 +54,7 @@ export const invitationData = {
 
   venue: {
     name: 'Mahalakshmi Illam',
-    addressLine1: 'Plot No 13C, Taj Nagar Street,',
+    addressLine1: 'Plot No 13C, Taj Nagar,',
     addressLine2: 'Thelliyaragaram Village, Ayyappan Thangal,',
     addressLine3: 'V7 Hotel (Backside), Porur,',
     addressLine4: 'Chennai – 600056',

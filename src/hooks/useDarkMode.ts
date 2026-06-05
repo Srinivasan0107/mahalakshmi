@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react'
 export function useDarkMode(): [boolean, () => void] {
   const [isDark, setIsDark] = useState(() => {
     if (typeof window === 'undefined') return true
-    // Default to dark unless user has explicitly chosen light
+    // Default to light unless user has explicitly chosen dark
     const stored = localStorage.getItem('theme')
-    if (stored === 'light') return false
-    return true
+    if (stored === 'dark') return true
+    return false
   })
 
   useEffect(() => {

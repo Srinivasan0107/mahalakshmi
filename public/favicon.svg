@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#6D1F1F"/>
+  <!-- House shape -->
+  <polygon points="32,10 10,30 54,30" fill="#D4AF37"/>
+  <rect x="16" y="30" width="32" height="22" fill="#FAF7F2"/>
+  <!-- Door -->
+  <rect x="26" y="38" width="12" height="14" rx="1" fill="#6D1F1F"/>
+  <!-- Windows -->
+  <rect x="18" y="33" width="8" height="7" rx="1" fill="#D4AF37" opacity="0.7"/>
+  <rect x="38" y="33" width="8" height="7" rx="1" fill="#D4AF37" opacity="0.7"/>
+  <!-- Kalasam on top -->
+  <rect x="30" y="6" width="4" height="6" fill="#D4AF37"/>
+  <circle cx="32" cy="5" r="3" fill="#D4AF37"/>
+</svg>

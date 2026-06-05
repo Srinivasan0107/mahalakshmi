@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" fill="none">
+  <!-- Sky gradient background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF8EE"/>
+      <stop offset="100%" stop-color="#FBF0D8"/>
+    </linearGradient>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF8EE"/>
+      <stop offset="100%" stop-color="#F5E8C8"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8B2929"/>
+      <stop offset="100%" stop-color="#6D1F1F"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A8892A"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A8892A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground -->
+  <rect x="0" y="270" width="400" height="50" fill="#E8D5A3" opacity="0.4"/>
+
+  <!-- Main house body -->
+  <rect x="70" y="140" width="260" height="135" fill="url(#wallGrad)" stroke="#D4AF37" stroke-width="1.5"/>
+
+  <!-- Main roof (gabled) -->
+  <polygon points="55,140 200,60 345,140" fill="url(#roofGrad)" stroke="#D4AF37" stroke-width="1.5"/>
+
+  <!-- Roof ridge decoration (kalasam) -->
+  <rect x="194" y="42" width="12" height="20" fill="#D4AF37"/>
+  <ellipse cx="200" cy="38" rx="8" ry="8" fill="#D4AF37"/>
+  <circle cx="200" cy="32" r="4" fill="#FAF7F2" stroke="#D4AF37" stroke-width="1"/>
+  <!-- Kalasam top -->
+  <polygon points="196,42 200,28 204,42" fill="#A8892A"/>
+
+  <!-- Roof border trim -->
+  <line x1="55" y1="140" x2="345" y2="140" stroke="#D4AF37" stroke-width="2"/>
+
+  <!-- Gopuram-style roof tiers (decorative) -->
+  <polygon points="100,140 200,90 300,140" fill="#7A1A1A" opacity="0.4" stroke="#D4AF37" stroke-width="0.8"/>
+
+  <!-- Front pillars -->
+  <rect x="100" y="200" width="14" height="75" fill="#E8C87A" stroke="#D4AF37" stroke-width="1"/>
+  <rect x="286" y="200" width="14" height="75" fill="#E8C87A" stroke="#D4AF37" stroke-width="1"/>
+
+  <!-- Pillar caps -->
+  <rect x="97" y="197" width="20" height="6" fill="#D4AF37"/>
+  <rect x="283" y="197" width="20" height="6" fill="#D4AF37"/>
+  <rect x="97" y="272" width="20" height="4" fill="#D4AF37"/>
+  <rect x="283" y="272" width="20" height="4" fill="#D4AF37"/>
+
+  <!-- Verandah beam -->
+  <rect x="100" y="200" width="200" height="8" fill="#D4AF37" opacity="0.7"/>
+
+  <!-- Front door (arched) -->
+  <rect x="166" y="205" width="68" height="70" fill="#7A3B1E" stroke="#D4AF37" stroke-width="1.5"/>
+  <!-- Door arch -->
+  <path d="M166,230 Q200,205 234,230" fill="#6D1F1F" stroke="#D4AF37" stroke-width="1.5"/>
+  <!-- Door panels -->
+  <rect x="169" y="230" width="28" height="42" rx="1" fill="#8B4513" stroke="#D4AF37" stroke-width="0.8"/>
+  <rect x="203" y="230" width="28" height="42" rx="1" fill="#8B4513" stroke="#D4AF37" stroke-width="0.8"/>
+  <!-- Door handle -->
+  <circle cx="196" cy="252" r="3" fill="#D4AF37"/>
+  <circle cx="204" cy="252" r="3" fill="#D4AF37"/>
+  <!-- Door top decoration -->
+  <rect x="166" y="202" width="68" height="6" fill="#D4AF37" opacity="0.8"/>
+
+  <!-- Left window -->
+  <rect x="108" y="210" width="44" height="40" rx="2" fill="#C8E8F0" stroke="#D4AF37" stroke-width="1.2"/>
+  <line x1="130" y1="210" x2="130" y2="250" stroke="#D4AF37" stroke-width="0.8"/>
+  <line x1="108" y1="230" x2="152" y2="230" stroke="#D4AF37" stroke-width="0.8"/>
+  <!-- Window arch -->
+  <path d="M108,222 Q130,208 152,222" fill="#D4AF37" opacity="0.3"/>
+  <!-- Window grille decoration -->
+  <rect x="106" y="207" width="48" height="5" fill="#D4AF37" opacity="0.7"/>
+
+  <!-- Right window -->
+  <rect x="248" y="210" width="44" height="40" rx="2" fill="#C8E8F0" stroke="#D4AF37" stroke-width="1.2"/>
+  <line x1="270" y1="210" x2="270" y2="250" stroke="#D4AF37" stroke-width="0.8"/>
+  <line x1="248" y1="230" x2="292" y2="230" stroke="#D4AF37" stroke-width="0.8"/>
+  <!-- Window arch -->
+  <path d="M248,222 Q270,208 292,222" fill="#D4AF37" opacity="0.3"/>
+  <rect x="246" y="207" width="48" height="5" fill="#D4AF37" opacity="0.7"/>
+
+  <!-- Side wings -->
+  <rect x="30" y="185" width="50" height="90" fill="url(#wallGrad)" stroke="#D4AF37" stroke-width="1"/>
+  <polygon points="20,185 55,155 80,185" fill="#8B2929" stroke="#D4AF37" stroke-width="1"/>
+  <rect x="45" y="220" width="22" height="55" fill="#7A3B1E" stroke="#D4AF37" stroke-width="0.8"/>
+
+  <rect x="320" y="185" width="50" height="90" fill="url(#wallGrad)" stroke="#D4AF37" stroke-width="1"/>
+  <polygon points="320,185 345,155 380,185" fill="#8B2929" stroke="#D4AF37" stroke-width="1"/>
+  <rect x="333" y="220" width="22" height="55" fill="#7A3B1E" stroke="#D4AF37" stroke-width="0.8"/>
+
+  <!-- Steps -->
+  <rect x="155" y="272" width="90" height="8" fill="#E8C87A" stroke="#D4AF37" stroke-width="1"/>
+  <rect x="162" y="265" width="76" height="8" fill="#F0D080" stroke="#D4AF37" stroke-width="0.8"/>
+
+  <!-- Kolam / rangoli at entrance -->
+  <g opacity="0.6" transform="translate(200,285)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#D4AF37" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <circle cx="0" cy="0" r="7" fill="none" stroke="#6D1F1F" stroke-width="0.8"/>
+    <circle cx="0" cy="0" r="3" fill="#D4AF37"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#D4AF37" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#D4AF37" stroke-width="0.5" opacity="0.5"/>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#6D1F1F" stroke-width="0.5" opacity="0.5"/>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#6D1F1F" stroke-width="0.5" opacity="0.5"/>
+  </g>
+
+  <!-- Hanging torana / mango leaves decoration -->
+  <path d="M100,200 Q120,192 140,196 Q160,192 180,196 Q200,192 220,196 Q240,192 260,196 Q280,192 300,200" stroke="#2D7A2D" stroke-width="2" fill="none"/>
+  <!-- Mango leaves -->
+  <ellipse cx="112" cy="194" rx="6" ry="4" fill="#2D7A2D" transform="rotate(-20,112,194)"/>
+  <ellipse cx="130" cy="191" rx="6" ry="4" fill="#2D7A2D" transform="rotate(10,130,191)"/>
+  <ellipse cx="150" cy="193" rx="6" ry="4" fill="#2D7A2D" transform="rotate(-15,150,193)"/>
+  <ellipse cx="170" cy="191" rx="6" ry="4" fill="#2D7A2D" transform="rotate(5,170,191)"/>
+  <ellipse cx="190" cy="192" rx="6" ry="4" fill="#2D7A2D" transform="rotate(-10,190,192)"/>
+  <ellipse cx="210" cy="191" rx="6" ry="4" fill="#2D7A2D" transform="rotate(15,210,191)"/>
+  <ellipse cx="230" cy="193" rx="6" ry="4" fill="#2D7A2D" transform="rotate(-5,230,193)"/>
+  <ellipse cx="250" cy="191" rx="6" ry="4" fill="#2D7A2D" transform="rotate(20,250,191)"/>
+  <ellipse cx="270" cy="194" rx="6" ry="4" fill="#2D7A2D" transform="rotate(-15,270,194)"/>
+  <ellipse cx="288" cy="193" rx="6" ry="4" fill="#2D7A2D" transform="rotate(10,288,193)"/>
+  <!-- Marigold flowers on torana -->
+  <circle cx="120" cy="194" r="4" fill="#FF8C00" opacity="0.9"/>
+  <circle cx="160" cy="192" r="4" fill="#FF6600" opacity="0.9"/>
+  <circle cx="200" cy="191" r="4" fill="#FF8C00" opacity="0.9"/>
+  <circle cx="240" cy="192" r="4" fill="#FF6600" opacity="0.9"/>
+  <circle cx="280" cy="193" r="4" fill="#FF8C00" opacity="0.9"/>
+
+  <!-- Diyas on steps -->
+  <ellipse cx="168" cy="272" rx="5" ry="3" fill="#D4691E"/>
+  <ellipse cx="168" cy="270" rx="3" ry="2" fill="#FFA500"/>
+  <circle cx="168" cy="268" r="1.5" fill="#FFD700" opacity="0.9"/>
+
+  <ellipse cx="232" cy="272" rx="5" ry="3" fill="#D4691E"/>
+  <ellipse cx="232" cy="270" rx="3" ry="2" fill="#FFA500"/>
+  <circle cx="232" cy="268" r="1.5" fill="#FFD700" opacity="0.9"/>
+
+  <!-- Name plate -->
+  <rect x="152" y="155" width="96" height="22" rx="2" fill="#D4AF37" opacity="0.15" stroke="#D4AF37" stroke-width="1"/>
+  <text x="200" y="170" text-anchor="middle" font-family="serif" font-size="9" fill="#6D1F1F" font-weight="600" letter-spacing="1">MAHALAKSHMI ILLAM</text>
+
+  <!-- Decorative border dots on roof -->
+  <circle cx="70" cy="140" r="3" fill="#D4AF37"/>
+  <circle cx="200" cy="140" r="3" fill="#D4AF37"/>
+  <circle cx="330" cy="140" r="3" fill="#D4AF37"/>
+
+  <!-- Stars / sparkles in sky -->
+  <text x="40" y="50" font-size="10" fill="#D4AF37" opacity="0.5">✦</text>
+  <text x="340" y="45" font-size="8" fill="#D4AF37" opacity="0.4">✦</text>
+  <text x="360" y="80" font-size="6" fill="#D4AF37" opacity="0.3">✦</text>
+  <text x="20" y="90" font-size="7" fill="#D4AF37" opacity="0.3">✦</text>
+
+  <!-- Outer gold frame -->
+  <rect x="2" y="2" width="396" height="316" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+</svg>
